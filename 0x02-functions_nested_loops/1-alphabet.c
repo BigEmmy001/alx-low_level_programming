@@ -1,21 +1,21 @@
 #include "main.h"
 
 /**
-  * print_alphabet - print all english alphabets
-  * in lower
-  *
-  * Return: void
-  */
+ * print_alphabet - check the code for ALX School students.
+ *
+ * Return: Always 0.
+ */
+
 void print_alphabet(void)
 {
-	int ascii_a = 97;
-	int i;
+	char alp = 'a';
 
-	for (i = 0; i < 26; i++)
+	while (alp <= 'z')
 	{
-		putchar(ascii_a + i);
-	}
+		_putchar (alp);
+		alp++;
 
-	putchar('\n');
+	}
+	_putchar ('\n');
 
 }
